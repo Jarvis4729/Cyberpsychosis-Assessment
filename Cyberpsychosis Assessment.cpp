@@ -11,7 +11,7 @@ int main()
     cin>>def;
     if (def == "no")
     {
-        cout<<"Cyberpsychosis is a mental disorder believed to be the cause of too many cybernetic implants inside of someone, impacting their behavior and often causing violent outbursts."<<endl;
+        cout<<"Cyberpsychosis is a mental disorder believed to be caused by too many cybernetic implants inside of someone, impacting their behavior and often causing violent outbursts."<<endl;
         cout<<"Now that you are aware of what cyberpsychosis is, do you think you might be suffering from it? "<<endl;
         cin >> a;
     if (a == "no")
@@ -20,7 +20,7 @@ int main()
     }
     else if (a == "yes")
     {
-        cout << "Thank you. Please, enter respond yes and no to the following questions: " << endl;
+        cout << "Thank you. Please, enter yes and no as a response to the following questions(be careful, it's case sensitive): " << endl;
         cout<< "Do you have any cybernetic implants? (spinal, cerebral, arm, leg, etc)? "<<endl;
         cin>>b;
         if (b== "no")
